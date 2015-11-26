@@ -1,5 +1,5 @@
 body{
-	font-family: 'Montserrat', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .fundo{
 	display: block;
@@ -11,4 +11,34 @@ body{
 	height: 100vh;
 	overflow: hidden;
 }
+.padrao{
+	background-color: #1aac92;
+	background-size: 30px 30px;
+	background-image: url("../img/padrao.png");
+    
+}
 
+.texto{
+	color: #3D3D3D;
+	text-align: left;
+}
+.remove_padding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.container_do{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.container_do img{
+	width: 70%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.container_do h3{
+	color: white;
+	text-align: center;
+
+}
