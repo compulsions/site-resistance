@@ -63,3 +63,28 @@ body{
 
 
 }
+.works_icons{
+	width: 80%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 80px;
+}
+.works_icons a img{ 
+	width: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+.logo_nav{
+	width: 25px;
+}
+.logo{
+	display: block;
+	margin-right: 20%;
+	margin-left: 20%;
+	position: absolute;
+	top:16vh;
+	width: 60%;
+}
