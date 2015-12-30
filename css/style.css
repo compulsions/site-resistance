@@ -88,3 +88,62 @@ body{
 	top:16vh;
 	width: 60%;
 }
+
+.titulo_team{
+	color: #1aac92;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.container_photo{
+	height: 350px;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+        padding: 25px;
+        color: white;
+
+}
+.container_icons{
+	margin-top: 120px;
+	display: block;
+	width: 100%;
+}
+.container_icons a img{
+	display: inline-block;
+	margin-right: 5px;
+	width: 60px;
+}
+.photo2{
+	width: 100%;
+	filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  position: absolute;
+  width: 100%;
+}
+.container_caption{
+	background: rgba(26,172,146,100);
+	padding: 20px;
+	position: absolute;
+  	width: 100%;
+  	z-index: 10;
+ 	 opacity: 0;
+ 	 height: 100%;
+ 	   -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+.container_caption:hover{
+	opacity: 0.8;
+
+
+}
+.transition{
+ -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}

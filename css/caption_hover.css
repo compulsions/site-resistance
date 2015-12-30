@@ -23,6 +23,9 @@
 	max-width: 100%;
 	display: block;
 	position: relative;
+	filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 
 .grid figcaption {
