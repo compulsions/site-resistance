@@ -21,6 +21,9 @@ body{
 .texto{
 	color: #3D3D3D;
 	text-align: left;
+	margin-right:5%;
+	margin-left:5%;
+	margin-top:5%;
 }
 .remove_padding{
 	padding-left: 0px;
@@ -40,5 +43,23 @@ body{
 .container_do h3{
 	color: white;
 	text-align: center;
+
+}
+.btn_more{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
+.btn_more a{
+
+	color: #3d3d3d;
+	border: 1px solid #3d3d3d;
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-right: 35px;
+	padding-left: 35px;
+	font-weight: 100;
+
 
 }
