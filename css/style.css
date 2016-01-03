@@ -1,6 +1,14 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 }
+
+.navbar-sectionInicial{
+	top: 90%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
 .fundo{
 	display: block;
 	width: 100%;
