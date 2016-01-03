@@ -388,12 +388,45 @@
 	opacity: 1;
 }
 
+.grid {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.grid li {
+	display: inline-block;
+	width: 30%;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
 @media screen and (max-width: 31.5em) {
 	.grid {
-		padding: 10px 10px 100px 10px;
+		left: 5%;
+		right: 5%;
 	}
 	.grid li {
 		width: 100%;
-		min-width: 300px;
+		min-width: 100%;
+	}
+}
+@media screen and (max-width: 60em) {
+	.grid {
+		padding: 2% 2% 10% 2%;
+		max-width: 100%;
+		margin: 0 auto;
+		list-style: none;
+	}
+	.grid li {
+		display: inline-block;
+		width: 46%;
+		margin: 0;
+		padding: 20px;
+		text-align: left;
+		position: relative;
 	}
 }
