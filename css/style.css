@@ -2,11 +2,21 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
+<<<<<<< HEAD
 .sectionInicial{
 	height: 100vh;
 	width: 100%;
 	overflow: hidden;
 }
+=======
+.navbar-sectionInicial{
+	top: 90%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+>>>>>>> 3d133c324ec55dcec5f74e1e9aa6c2c78d2dff0f
 .fundo{
 	display: block;
 	width: 100%;
