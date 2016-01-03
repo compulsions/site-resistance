@@ -1,15 +1,17 @@
 //jQuery to collapse the navbar on scroll
-$(window).on('scroll', function(){
-	if( $(window).scrollTop()>890 ){
-		$('.navbar').removeClass('navbar-sectionInicial');
-		$('.navbar').addClass('navbar-fixed-top');
-	} else {
-		$('.navbar').removeClass('navbar-fixed-top');
-		$('.navbar').addClass('navbar-sectionInicial');
+$(".navbar").hide();
+$(window).scroll(function() {
+    if ($(".navbar").offset().top > 450) {
+         $(".navbar").slideDown();
+        
+    } else {
+       if( $(".navbar-fixed-top").is(":hidden")){
+            
+        }else{
+            $(".navbar").slideUp();
+        }
     }
-}); 
-
-
+});
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
