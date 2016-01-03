@@ -24,7 +24,6 @@ body {
 	overflow: hidden;
 	/* we don't want the pseudo-elements sticking out */
 }
-
 .container_sections  svg {
 	display: block;
 }

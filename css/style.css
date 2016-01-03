@@ -2,21 +2,17 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
-<<<<<<< HEAD
 .sectionInicial{
 	height: 100vh;
 	width: 100%;
 	overflow: hidden;
 }
-=======
 .navbar-sectionInicial{
 	top: 90%;
     position: absolute;
     width: 100%;
     z-index: 2;
 }
-
->>>>>>> 3d133c324ec55dcec5f74e1e9aa6c2c78d2dff0f
 .fundo{
 	display: block;
 	width: 100%;
@@ -69,16 +65,23 @@ body{
 	margin-top: 50px;
 }
 .btn_more a{
-
 	color: #3d3d3d;
-	border: 1px solid #3d3d3d;
+	border: 3px solid #3d3d3d;
 	padding-top: 10px;
 	padding-bottom:10px;
 	padding-right: 35px;
 	padding-left: 35px;
-	font-weight: 100;
+	font-weight: 700;
 
-
+	-webkit-transition-duration: 0.2s;
+	  -moz-transition-duration: 0.2s;
+	  -o-transition-duration: 0.2s;
+	  transition-duration: 0.2s;
+}
+.btn_more a:hover{
+	text-decoration: none;
+	color: #1aac92;
+	border: 3px solid #1aac92;
 }
 .works_icons{
 	width: 80%;
@@ -91,6 +94,22 @@ body{
 	width: 20%;
 	margin-left: 10%;
 	margin-right: 10%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	-webkit-transition-duration: 0.2s;
+	  -moz-transition-duration: 0.2s;
+	  -o-transition-duration: 0.2s;
+	  transition-duration: 0.2s;
+	  opacity: 0.8;
+}
+.works_icons a img:hover{
+	width: 22%;
+	margin-left: 9%;
+	margin-right: 9%;
+	margin-bottom: 0%;
+	margin-top: 0%;
+	opacity: 1;
+
 }
 
 
@@ -180,4 +199,7 @@ body{
   -moz-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
+}
+.recrutar{
+	color: #3d3e3d;
 }

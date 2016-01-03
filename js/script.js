@@ -21,3 +21,13 @@ $(function() {
         event.preventDefault();
     });
 });
+
+$("#recrutamento_off").hide();
+$("#recrutamento_on").hide();
+var recrutamento = "on";
+
+if( recrutamento=="off"){
+    $("#recrutamento_off").show();
+}else{
+    $("#recrutamento_on").show();
+}
