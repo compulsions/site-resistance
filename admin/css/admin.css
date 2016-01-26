@@ -1,0 +1,116 @@
+.title {
+	text-align: center;
+  padding-bottom: 10px;
+}
+
+.alert-info {
+  margin-bottom: 50px;
+}
+
+#select-departamento {
+  text-align: center;
+}
+
+#select-departamento select {
+  width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.criar {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+form {
+	margin-bottom: 50px;
+}
+
+.btn-danger {
+	margin-bottom: 50px;
+}
+
+form .btn-danger {
+  margin-bottom: 0;
+}
+
+table {
+	margin-top: 50px;
+}
+
+.logo {
+    max-height: 300px;
+    display: block;
+    margin: auto;
+}
+
+.login {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.home-panel {
+  margin-top: 36px;
+  text-align: center;
+}
+
+
+/*----- login ------*/
+
+.flp div {position: relative; margin-bottom: 30px;}
+
+.flp input, .flp label {
+	width: 400px; display: block;
+	font: inherit; font-size: 16px; line-height: 24px;
+	height: 46px;
+	border: 1px solid #999;
+}
+.flp input {padding: 10px; outline: none; border-radius: 3px;}
+.flp label {
+	position: absolute; left: 0; top: 0;
+	padding: 10px 8px;
+	border-color: transparent; color: #666;
+	cursor: text;
+}
+
+.ch {
+	display: block; float: left;
+	position: relative; 
+	background: white; 
+}
+.ch:first-child {padding-left: 2px;}
+.ch:last-child {padding-right: 2px;}
+
+.focussed {
+	pointer-events: none;
+}
+
+/*------------- Para o sticky footer -------------*/
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -18px;
+  /* Pad bottom by footer height */
+  padding: 0 0 18px;
+}
+
+/* Set the fixed height of the footer here */
+footer {
+  height: 18px;
+  background-color: #E0E0E0;
+}
+
+footer p {
+	margin: 0;
+	font-size: 10px;
+	text-align: center;
+	color: #8D8D8D;
+}
