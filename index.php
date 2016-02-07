@@ -97,12 +97,10 @@
 	</nav>
 
 	<div id="sectionInicial" class="container_sections">
-		<section class="sectionInicial" id="sectionInicial">
+		<section class="sectionInicial" id="sectionHero">
 			<div class="fundo" >
 				<img class="logo" src="img/logo_big.png" alt="background">
 			</div>
-			<img class="fundo" src="img/fundo.jpg" alt="background">
-			<img class="logo" src="img/logo_big.png" alt="background">
 			
 		</section>
 
