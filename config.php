@@ -1,7 +1,7 @@
 <?php 
 
     $username = "root"; 
-    $password = ""; 
+    $password = "root"; 
     $host = "localhost"; 
     $dbname = "resistance"; 
 

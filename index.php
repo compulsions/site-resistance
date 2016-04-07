@@ -211,7 +211,6 @@
 				    </div>
 	        	</div>
 		</section>
-
 <!---
 		<section id="sectionRecrutamento" class="separador">
 			<h1 class="titulo text_color_gray"> RECRUTAMENTO</h1>
@@ -222,11 +221,13 @@
 			<div id="recrutamento_on">
 				<h3 class="recrutar">Inscrições abertas!</h3>
 				<div class="btn_more">
-					<a href="recrutamento.html"> Fazer Inscrição</a>
+					<a href="recrutamento.php"> Fazer Inscrição</a>
 				</div>
 
 			</div>
 		</section>
+
+
 
 		<section id="sectionParcerias" class="separador color col-3 ss-style-triangles">
 			<h1 class="titulo text_color_white"> PARCERIAS</h1>
