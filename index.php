@@ -52,6 +52,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
 	<link rel="stylesheet" type="text/css" href="css/icons.css" />
@@ -96,12 +97,10 @@
 	</nav>
 
 	<div id="sectionInicial" class="container_sections">
-		<section class="sectionInicial" id="sectionInicial">
+		<section class="sectionInicial" id="sectionHero">
 			<div class="fundo" >
 				<img class="logo" src="img/logo_big.png" alt="background">
 			</div>
-			<img class="fundo" src="img/fundo.jpg" alt="background">
-			<img class="logo" src="img/logo_big.png" alt="background">
 			
 		</section>
 
